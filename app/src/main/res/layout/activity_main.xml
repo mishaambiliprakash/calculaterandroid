@@ -1,0 +1,41 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="addclick"
+            android:text="ADDITION"
+            android:layout_margin="20dp"
+            android:background="@drawable/gradient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="subclick"
+            android:text="SUBTRACTION"
+            android:layout_margin="20dp"
+            android:background="@drawable/gradient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="mulclick"
+            android:text="MULPLICATION"
+            android:layout_margin="20dp"
+            android:background="@drawable/gradient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="divclick"
+            android:text="DIVISION"
+            android:layout_margin="20dp"
+            android:background="@drawable/gradient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

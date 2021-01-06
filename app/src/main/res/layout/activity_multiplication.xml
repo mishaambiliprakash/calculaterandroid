@@ -1,0 +1,39 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    android:background="@drawable/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:inputType="number"
+        android:hint="Enter Num1"
+        android:id="@+id/nu1"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="number"
+
+        android:hint=" Enter Num2"
+        android:id="@+id/nu2"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:onClick="mulbutton"
+        android:layout_margin="10dp"
+        android:background="@drawable/gradient"
+        android:text="MULTIPLY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:onClick="backbutton"
+        android:layout_margin="10dp"
+        android:background="@drawable/gradient"
+        android:text="BACK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
